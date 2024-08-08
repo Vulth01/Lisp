@@ -1,0 +1,28 @@
+From what I have encountered, here are some notes that could hopefully help:
+
+- Loading up the project, I have to launch Portable Common Lisp IDE (Portacle) and not GNU Emacs
+
+- Make a file, open it.
+
+- Top half is the code and bottom half is command console, or whatever the terminology is supposed to be.
+
+- For setting up the project according to your taste, use Ctrl-0/1/2/3. Refer to the cheatsheet.
+
+- Navigate between buffers with Ctrl-o. Navigate the content of the buffer with Ctrl-x + < or >
+
+- C-x is Ctrl-X / M-x is Alt-x
+
+
+- Syntax is weird... Here is an example:
+              (defune Square (x) 
+                (* x x))
+              (defun doThing (x) 
+                (Square x))
+
+              CL-USER> (doThing 5)   ->   25
+
+- Code not working? Try saving with C-x C-s and evaluating the entire buffer with "M-x eval-buffer", or C-x C-e to evaluate each function individually.
+
+- Comment using ;
+
+- 
