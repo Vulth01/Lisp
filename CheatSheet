@@ -1,5 +1,23 @@
 https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf
 
+
+Common:
+C-x <-        Navigation between buffers 
+C-x ->        Navigation between buffers
+C-x b         Select another buffer
+C-x C-b       List all buffers
+C-o           Navigation between windows
+C-x s         Save all files
+C-x C-s       Save specified file
+C-x 0         Delete this window
+C-x 1         Delete all other windows
+C-x 2         Split window above and below
+C-x 3         Split window to side
+C-c C-c       Compile lisp form
+C-c C-k       Compile whole file
+
+
+
 Files -
 read a file into Emacs C-x C-f
 save a file back to disk C-x C-s
