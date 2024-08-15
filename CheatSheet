@@ -13,7 +13,8 @@ C-x 0         Delete this window
 C-x 1         Delete all other windows
 C-x 2         Split window above and below
 C-x 3         Split window to side
-C-c C-c       Compile lisp form
+C-c C-c       Evaluate file / Compile lisp form
+C-x C-e       Evaluate function
 C-c C-k       Compile whole file
 
 
