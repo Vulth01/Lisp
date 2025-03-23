@@ -6,6 +6,8 @@ M-W		Copy
 C-W		Cut
 C-Y		Paste
 
+C-g		Exit mini-buffer
+
 C-x <-        	Navigation between buffers 
 C-x ->        	Navigation between buffers
 C-x b         	Select another buffer
